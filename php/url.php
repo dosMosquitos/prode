@@ -6,10 +6,12 @@ class url{
 	public $port = 80;
 	public $method = 'GET';
 	public $modulo = 'main';
+	private $base = '';
 	private $force = '';
 	private $separator = '';
 
-	function __construct($separator = '/',$force = '/') {
+	function __construct($base = '/', $separator = '/',$force = '/') {
+		$this->base = $base;
 		$this->separator = $separator;
 		$this->force = $force;
 
@@ -36,12 +38,15 @@ class url{
 	}
 
 	private function setParams(){
+		$uri = $_SERVER['REQUEST_URI'];
 		$s = $this->separator;
 		$f = $this->force;
 		$p = array();
 
-		if(strpos($_SERVER['REQUEST_URI'],$s) !== false){
-	                $p = explode($s,$_SERVER['REQUEST_URI']);
+		$uri = str_replace($this->base,'', $uri);
+
+		if(strpos($uri,$s) !== false){
+	                $p = explode($s,$uri);
         	        array_shift($p);
 		}
 		

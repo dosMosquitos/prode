@@ -1,0 +1,33 @@
+CREATE TABLE paises(id int(11) AUTO_INCREMENT, nombre VARCHAR(255), fifa VARCHAR(3), iso VARCHAR(2), PRIMARY KEY(id));
+INSERT INTO paises(nombre,fifa,iso) VALUES('Alemania','ger','de')
+, VALUES('Argelia','alg','dz')
+, VALUES('Argentina','arg','ar');
+, VALUES('Australia','aus','au');
+, VALUES('Belgica','bel','be');
+, VALUES('Bosnia y Herzegovina','bih','ba');
+, VALUES('Brasil','bra','br');
+, VALUES('Camerun','cmr','cm');
+, VALUES('Chile','chi','cl');
+, VALUES('Colombia','col','co');
+, VALUES('Corea del sur','kor','kr');
+, VALUES('Costa de marfil','civ','ci');
+, VALUES('Costa rica','crc','cr');
+, VALUES('Croacia','cro','hr');
+, VALUES('Ecuador','ecu','ec');
+, VALUES('España','esp','es');
+, VALUES('Estados Unidos','usa','us');
+, VALUES('Francia','fra','fr');
+, VALUES('Ghana','gha','gh');
+, VALUES('Grecia','gre','gr');
+, VALUES('Holanda','ned','nl');
+, VALUES('Honduras','hon','hn');
+, VALUES('Inglaterra','eng','en');
+, VALUES('Iran','irn','ir');
+, VALUES('Italia','ita','it');
+, VALUES('Japon','jpn','jp');
+, VALUES('Mexico','mex','mx');
+, VALUES('Nigeria','nga','ng');
+, VALUES('Portugal','por','pt');
+, VALUES('Rusia','rus','ru');
+, VALUES('Suiza','sui','ch');
+, VALUES('Uruguay','uru','uy');

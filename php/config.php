@@ -11,5 +11,5 @@ if($local){
         define('pass', 'T.%nSpr2wPBW');
         define('db', 'marcelo_as');
 }
-	
+$baseUri = 'http://prode.com.ar/';	
 ?>
