@@ -1,0 +1,288 @@
+body{
+	margin:0 auto;
+	font-family: 'open sans', 'sans serif';
+	background: #fff;
+	font-size: 12px;
+	overflow-x: hidden;
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (-moz-min-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 2/1),
+only screen and (min-device-pixel-ratio: 2),
+only screen and (min-resolution: 192dpi),
+only screen and (min-resolution: 2dppx) { 
+	/* styles for Retina-type displays */
+}
+
+*{
+	box-sizing: border-box;
+}
+
+.alt{
+	background: #FFFDEF;
+}
+
+.itm{
+	background: #fff;
+}
+
+
+.top{
+	width: 100%;
+	height: 40px;
+	border-bottom:1px solid #ccc;
+}
+
+.verde{
+	background: ;
+}
+
+.amarillo{
+	 background: ;
+}
+
+.azul{
+	background: ;
+}
+
+.top i{
+    float: left;
+    font-size: 25px;
+    line-height: 40px;
+    margin: 0 11px 0 0;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25) !important;
+}
+
+.top .menu{
+	list-style: none;
+	float: left;
+	margin: 0;
+}
+
+.top .menu .item{
+	float: left;
+	height: 42px;
+	line-height: 42px;
+}
+
+.top .info{
+	float: right;
+	list-style: none;
+	margin:0;
+}
+
+.top .info .box{
+	width: 120px;
+	height: 40px;
+	float: left;
+}
+
+.top .info .box .text{
+	float: left;
+	height: 20px;
+	line-height: 20px;
+}
+
+.top .info .box .fecha{
+	float: left;
+	height: 20px;
+	line-height: 20px;
+}
+
+.main {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.main .contenido{
+    box-shadow: 0 4px 4px #999999;
+    float: left;
+    padding: 25px;
+    width: 100%;
+    position: relative;
+}
+
+.main h1 {
+    color: #C7452D;
+    font-weight: normal;
+}
+
+.main h2 {
+    color: #008047;
+    font-weight: normal;
+}
+
+.main .col{
+	float: left;
+	width: 50%;
+}
+
+.main .col .fixture{
+    float: left;
+    width: 100%;
+}
+
+.main .col .fixture .head, .main .col .tablas .head, .main .friends .head{
+   background: none repeat scroll 0 0 #DFF0D8;
+    border: 1px solid #95AE0C;
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    width: 100%;
+}
+
+.main .col .fixture .body, .main .friends .body{
+	float: left;
+	width: 100%;
+}
+
+.main .col .fixture .body .row, .main .col .tablas .body .row, .main .friends .body .row{
+    border-bottom: 1px solid #CCCCCC;
+    border-left: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;
+    float: left;
+    height: 25px;
+    line-height: 20px;
+    width: 100%;
+}
+
+.main .col .fixture .body .row div, .main .col .tablas .body .row div, .main .friends .body .row div{
+	float: left;
+	height: 25px;
+	line-height: 25px;
+	border-right: 1px solid #ccc;
+}
+
+.main .col .fixture .body .row div:last-child, .main .col .tablas .body .row div:last-child, .main .friends .body .row div:last-child {
+	border-right: none;
+}
+
+.main .col .fixture .head div, .main .col .tablas .head div, .main .friends .head div{
+	float: left;
+	height: 28px;
+	line-height: 28px;
+	font-weight: 600;	
+    border-right: 1px solid #DFF0D8;
+    color: #468847;
+	text-align: center;
+}
+
+.main .col .fixture .head div:last-child, .main .col .tablas .head div:last-child, .main .friends .head div:last-child{
+	border-right: none;
+}
+
+.main .col .bandera{
+	width: 30px;
+}
+
+.main .pais{
+	width: 120px;
+	text-align: center;
+}
+
+.main .resultado{
+	width:40px;
+	text-align: center;
+	float: left;
+}
+
+.main .col .fixture .resultado input{
+	width:22px;
+	border: none;
+	height: 22px;
+	background: transparent;
+	text-align: center;
+}
+
+.main .col .tablas{
+	float: left;
+	width: 95%;
+	margin-left: 5%;
+}
+
+.main .col .tablas .head{
+	float: left;
+}
+
+.main .col .tablas .inf{
+	width: 100%;
+	height: 20px;
+	line-height: 20px;
+}
+
+.main .col .tablas span{
+	float: left;
+	font-weight: 600;
+	margin-left: 10px;
+}
+
+.main .col .fecha{
+	width:53px;
+	text-align: center;
+}
+
+.wide{
+	float: left;
+	width: 100%;
+	position: relative;
+	margin: 10px 0;
+}
+
+.friends {
+	float: left;
+	width:100%;
+}
+
+h3{
+	margin: 0;
+}
+
+.absolute{
+	position: absolute;
+}
+
+.right{
+    right: 0;
+    top: 0;	
+}
+
+.controles {
+    background: none repeat scroll 0 0 #DFF0D8;
+    border: 1px solid #95AE0C;
+    border-radius: 5px;
+    margin: 25px;
+    padding: 20px;
+    color: #468847;
+}
+
+.bandera span{
+	float: left;
+}
+
+.center{
+	width: 200px;
+	left: 50%;
+	margin-left: -100px;
+	top: 0;
+}
+
+.center input{
+	border: 1px solid #95AE0C;
+	height: 25px;
+}
+
+.col .send {
+    background: none repeat scroll 0 0 #EFD7D7;
+    border: 1px solid #D15B47;
+    bottom: 2px;
+    color: #B74635;
+    cursor: pointer;
+    font-weight: 600;
+    height: 30px;
+    position: fixed;
+    transition: all 250ms;
+}
